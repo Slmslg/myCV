@@ -1,0 +1,459 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	height: 100%;	
+}
+body{
+	overflow-x: hidden;
+}
+nav{
+	padding: 0;
+	margin: 0;
+}
+.avatar{
+	margin: 0;
+	padding: 0;
+	height: 160px;
+}
+.avatar img{
+	margin: 0;
+	padding: 0;
+	
+}
+h1{
+	/* SELİM SİLGU */
+}
+.myname{
+	background-color: #2ba163;
+	width: 120px;
+	font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sol-kisim{
+	padding: 0;
+	margin: 0;
+	width: 120px;
+	min-height: 662px;
+	background-color: #1c262b;
+	float: left;
+	z-index: 5;
+	position: fixed;
+}
+.menu{
+	float: left;
+	background-color: #1c262b;
+	height: 100%;
+	display: block;
+	z-index: 5;
+}
+.clear{clear: both; float: left;}
+.menu ul{
+	list-style: none;
+	background-color: #1c262b;
+    float: left;
+    margin: 0;
+    padding: 0; 
+    width: auto;
+    height: 100%;
+    z-index: 5;
+}
+.menu ul li {
+	font-size: 12px;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(225, 246, 255, 0.07);
+    display: list-item;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Montserrat", serif;
+    width: 120px;    
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-color: #1c262b;
+    height: 100%;
+    z-index: 5;
+}
+.menu ul li a{
+	text-decoration: none;
+	z-index: 5;
+	
+}
+.menu ul li a img{height: 22px; width: 22px; z-index: 5;}
+.menu ul li a p{
+	font-family: "Montserrat", serif;
+	color: #fff;
+	font-size: 10px;
+	z-index: 5;
+}
+.pres-ico{
+	background: url(home.png);
+}
+.sayfa{
+	height: 100%; width: 100%;
+	padding: 0; margin: 0;
+	background-color: lightblue;
+	background-size: cover;
+	text-align: justify;
+}
+.bant{
+	height: 15%; 
+	padding: 0; margin: 0;
+	background-color: red;
+}
+.bant-hakkimda{
+	height: 10%; 
+	padding: 0; margin: 0;
+	background-color: #ff8a00;
+}
+.bant-projeler{
+	height: 10%; 
+	padding: 0; margin: 0;
+	background-color: #29a051;
+}
+.bant-iletisim{
+	height: 10%; 
+	padding: 0; margin: 0;
+	background-color: #c10e19;
+}
+.bant-araclar{
+	height: 10%; 
+	padding: 0; margin: 0;
+	background-color: #325896;
+}
+.home{
+	background-image: url(img/1.jpg);
+	background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.hakkimda{
+	background-image: url(img/2.jpg);
+}
+.portfolyo{
+	background-image: url(img/5.jpg);	
+	background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+	padding-top: 0px;
+	padding-left: 200px;
+}
+.makaleler{
+	background-image: url(img/11.jpg);
+
+}
+.iletisim{
+	background-image: url(img/6.jpg);
+
+}
+.araclar{
+	background-image: url(img/13.jpg);
+}
+.main-page{
+	position: absolute;
+ }
+.anasayfa{
+	width: 340px;
+	height: 200px;
+	z-index: 4;
+	margin-left: 600px;
+	margin-top: 400px;
+}
+.filtre{
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	opacity: 0.34;
+	z-index: 0;
+	margin-left: 120px;
+}
+#merhaba{
+	color: #f4f4f4;
+    font-size: 50px;
+    font-family: monospace;
+    z-index: 4;
+    width: 360px;
+    float: left;
+    margin: 0; 
+    margin-left: 360px;
+    margin-top: 75px;
+}
+
+@font-face {
+    font-family: 'ralewayitalic';
+    src: url('font/rewal/raleway-italic-webfont.woff2') format('woff2'),
+         url('font/rewal/raleway-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.giris-paragraf p{
+	color: #f4f4f4;
+	padding: 0;margin:0;
+	margin-left: -250px;
+    margin-top: -220px;
+    width: 600px;
+    text-align: justify;
+    font-family: "ralewayitalic";
+    font-size: 20px;
+}
+#k-yazi{
+	z-index: 4;
+	color: white;
+	float: right;
+	margin-top: 0;
+	font-size: 0.8em;
+	width: 150px;
+	margin-right: -360px;
+}
+#my_canvas{
+  	width: 200px;
+  	height: 200px;
+	margin-left: 200px;
+	top: 100px;
+	z-index: 4;
+	border:1px dashed #fff;	
+}
+#hakkimda-yazisi{
+	color: 	#ffffff;
+	font-family: "Garamond",Arial,sans-serif;
+	z-index: 4;
+	font-size: 14px;
+	margin-left: 200px;
+	margin-right: 150px;
+	margin-top: 0;
+	padding: 1px;
+	padding-top: 35px;
+}
+#hakkimda-baslik{
+	border-bottom: 3px solid #ff8a00;
+	border-left: 10px solid #ff8a00;
+	text-align: center;
+	width: 200px;
+	margin-left: 15%;
+	margin-top: 0;
+	padding-top: 20px; 
+	color: white;
+	font-family: "Garamond",Arial,sans-serif;
+	line-height: 20px;
+	font-weight: normal;
+	font-size: 25px;
+}
+#projeler-baslik{
+	border-bottom: 3px solid #29a051;
+	border-left: 10px solid #29a051;
+	text-align: center;
+	width: 200px;
+	margin-left: 0%;
+	margin-top: 0;
+	padding-top: 20px; 
+	color: white;
+	font-family: "Garamond",Arial,sans-serif;
+	line-height: 20px;
+	font-weight: normal;
+	font-size: 25px;
+}
+#iletisim-baslik{
+	border-bottom: 3px solid #c10e19;
+	border-left: 10px solid #c10e19;
+	text-align: center;
+	width: 200px;
+	margin-left: 20%;
+	margin-top: 0;
+	padding-top: 20px; 
+	color: white;
+	font-family: "Garamond",Arial,sans-serif;
+	line-height: 20px;
+	font-weight: normal;
+	font-size: 25px;
+}
+#arac-baslik{
+	border-bottom: 3px solid #325896;
+	border-left: 10px solid #325896;
+	text-align: center;
+	width: 500px;
+	margin-left: 20%;
+	margin-top: 0;
+	padding-top: 20px; 
+	color: white;
+	font-family: "Garamond",Arial,sans-serif;
+	line-height: 20px;
+	font-weight: normal;
+	font-size: 25px;
+}
+#hakkimda-yazisi ul{
+	display: block;
+}
+#hakkimda-yazisi ul li{
+	float: left;
+	list-style: none;	
+}
+.durak{
+	border: 7px solid #ff9c05;
+	height: 20px; width: 20px;
+	border-radius: 20px;
+	background-color: #fff;
+}
+.cizgi{
+	width: 150px;
+	height: 2px;
+	background-color: #ff9c05;
+	margin-top: 15px;
+}
+#hakkimda-yazisi p{
+	text-align: center;
+	margin-top: 150%;
+	width: 150px;
+    margin-left: -50px;
+    border: 1px solid #0000e5;
+    background-color: #fff;
+    color: #41a92a;
+}
+.alt_cizgi{
+	width: 2px;
+	height: 150px;
+	background-color: #ff9c05;
+	margin-top: 15px;
+	margin-left: -18px;
+    margin-top: 28px;
+}
+.alt_durak{
+	border: 7px solid #ff9c05;
+	height: 20px; width: 20px;
+	border-radius: 20px;
+	background-color: #fff;
+	float: right;
+}
+ul li #durak-son{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.projeler{
+	width: 1100px;
+	height: auto;
+	float: left;
+	border: 0px dashed black;
+
+}
+.referanslar{
+	height: 200px;
+	width: 200px;
+	border: 1px solid #3e495c;
+	background-color: #e3eae5;
+	z-index: 4;
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+	background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: background-size .15s;
+     background-position: 50% 50%;
+    -webkit-filter: blur(1px);
+ 	filter: blur(1px); border-radius: 100px;
+}
+.resim-p1{
+	background-image: url(img/p1.jpg);
+	
+}
+.referanslar:hover{
+	background-size: 150% 150%;
+    -webkit-filter: blur(0px);
+ 	filter: blur(0px); 	
+ 	cursor: pointer;
+}
+.resim-p2{background-image: url(img/p2.png);}
+.resim-p3{background-image: url(img/p3.png);}
+.resim-p4{background-image: url(img/p4.jpg);}
+.resim-p5{background-image: url(img/p5.jpg);}
+.resim-p6{background-image: url(img/p6.jpg);}
+.resim-p7{background-image: url(img/p7.jpg);}
+.resim-p8{background-image: url(img/p8.png);}
+.referanslar p{
+	color: white;
+	border: 0px solid #ddd999;
+	background-color: orange;
+	border-radius: 0 0 1px 1px;
+	text-align: center;
+	margin-top: 50%;
+	z-index: 6;
+}
+.contact{
+	padding-left: 380px;
+	padding-top: 120px;
+}
+#text-area-contact{
+	width: 610px;
+	height: 170px;
+}
+#gonder{
+	float: right;
+}
+#concat-form{
+	width: 800px;
+}
+.contact{
+	width: 618px;
+}
+.arac{
+	margin-left: 150px;
+	width: 1100px;
+	/*border:1px solid #2f4f4f;*/	
+	height: 500px;
+}
+#frameworks{
+	width: 150px;
+	height: 150px;
+	/*border:0px solid #2f4f4f;*/
+	/* background-color: #088da5;*/
+	float: left;
+	background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.netbeans{background-image: url(img/netbeans.png);}
+.eclipse{background-image: url(img/eclipse.png);}
+.android{background-image: url(img/android.png);}
+.visual{background-image: url(img/visual.png);}
+.mssql{background-image: url(img/mssql.png);}
+.oracle{background-image: url(img/oracle.png);}
+.unity{background-image: url(img/unity.png);}
+.sublime{background-image: url(img/sublimetext.png);}
+.photo{background-image: url(img/photoshop.png);}
+.mobirise{background-image: url(img/mobirise.png);}
+.wamp{background-image: url(img/wamp.png);}
+.cisco{background-image: url(img/cisco.png);}
+.websitelerim{
+	position: absolute;
+	z-index: 3;
+	margin-left: 65%;
+	margin-top: -200px;
+}
+.websitelerim ul li{
+	color: #ececec;
+}
+.website-kopya{
+	width: 400px;
+	height: 290px;
+	background-color: #464545;
+	position: absolute;
+	z-index: 2;
+	opacity: 0.44;
+	margin-left: 65%;
+	margin-top: -200px;
+}
+.websitelerim ul li:before{
+	 content: "\00BB \0020";
+}
+.websitelerim ul li{
+	list-style: none;
+}
+.websitelerim a{
+	color: #000000;
+}

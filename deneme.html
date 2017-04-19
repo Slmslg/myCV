@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style type="text/css">
+	.w3-green{
+		height: 30px;
+		width: 400px;
+		background: -moz-linear-gradient(top,  rgb(255,48,25) 0%, rgb(207,4,4) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgb(255,48,25) 0%,rgb(207,4,4) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgb(255,48,25) 0%,rgb(207,4,4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+	}
+	
+</style>
+<script>
+function move(yuzde) {
+  var elem = document.getElementById("myBar");   
+  var width = 1;
+  var id = setInterval(frame, 1);
+  function frame() {
+    if (width >= yuzde) {
+    	width--;
+    	elem.style.width = width + '%'; 
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+    }
+  }
+}
+</script>
+</head>
+<body>
+		<div class="java" onmouseover="move(50)">
+	  		<div class="java-progress-container">
+		   		 <div id="myBar" class="java-progressbar w3-green" style="width:1%">%50</div>
+		  	</div>
+		</div>
+		<br/>
+		<div class="csharp" onmouseover="move(60)">
+	  		<div class="csharp-progress-container">
+		   		 <div id="myBar" class="csharp-progressbar w3-green" style="width:1%">%60</div>
+		  	</div>
+		</div>
+		<div class="java" onmouseover="move(50)">
+	  		<div class="java-progress-container">
+		   		 <div id="myBar" class="java-progressbar w3-green" style="width:1%">%50</div>
+		  	</div>
+		</div>
+		<div class="java" onmouseover="move(50)">
+	  		<div class="java-progress-container">
+		   		 <div id="myBar" class="java-progressbar w3-green" style="width:1%">%50</div>
+		  	</div>
+		</div>
+		<div class="java" onmouseover="move(50)">
+	  		<div class="java-progress-container">
+		   		 <div id="myBar" class="java-progressbar w3-green" style="width:1%">%50</div>
+		  	</div>
+		</div>
+</body>
+</html>
